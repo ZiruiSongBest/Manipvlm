@@ -1,6 +1,6 @@
 # ManipLVM-R1: Reinforcement Learning for Reasoning in Embodied Manipulation with Large Vision-Language Model
 
-<font size=4><div align='center' > [[🤗 Checkpoints]([https://huggingface.co/collections/omlab/ManipLVM-R1-models-67b7352db15c19d57157c348](https://huggingface.co/JJJJinx/Qwen_SFT))]  </div></font>
+<font size=4><div align='center' > [[🤗 Checkpoints](https://huggingface.co/JJJJinx/Qwen_SFT)]  </div></font>
 
 ## 🛠️ Setup
 
