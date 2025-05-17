@@ -1,0 +1,17 @@
+accelerate launch --config_file=configs/zero3.yaml src/open_r1/sft.py \
+    --model_name_or_path Qwen/Qwen/Qwen2.5-VL-3B-Instruct \
+    --dataset_name HuggingFaceH4/Bespoke-Stratos-17k \
+    --learning_rate 2.0e-5 \
+    --num_train_epochs 1 \
+    --packing \
+    --max_seq_length 4096 \
+    --per_device_train_batch_size 4 \
+    --gradient_accumulation_steps 4 \
+    --gradient_checkpointing \
+    --bf16 \
+    --logging_steps 5 \
+    --eval_strategy steps \
+    --eval_steps 100 \
+    --output_dir data/Qwen2.5-VL-3B-SFT \
+    --report_to wandb \
+    --run_name Qwen2.5-VL-3B-SFT \

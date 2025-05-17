@@ -1,0 +1,2 @@
+datasets:
+    - json_path: /data/ShareRobot/affordance/train_affordance.json
